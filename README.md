@@ -10,6 +10,7 @@ The repo includes an `index.html` file (so it can render a web page), two GitHub
 
 - zheksha
 - karine b.
+- dan b.
 - ilkhom a
 - madina.k
 
