@@ -1,16 +1,8 @@
-![Auto Assign](https://github.com/geek-batch/demo-repository/actions/workflows/auto-assign.yml/badge.svg) ![Proof HTML](https://github.com/geek-batch/demo-repository/actions/workflows/proof-html.yml/badge.svg) <img src="https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg" alt="Awesome Badge"/>
+# React + Vite
 
-# ✳ Welcome to your Geeks Batch 4 demo repository
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-This code repository (or "repo") is designed to demonstrate the best GitHub has to offer with the least amount of noise.
+Currently, two official plugins are available:
 
-The repo includes an `index.html` file (so it can render a web page), two GitHub Actions workflows, and a CSS stylesheet dependency.
-
-## 🥷 List of contributors
-
-- zheksha
-- karine b.
-- dan b.
-- ilkhom a
-- madina.k
-
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
