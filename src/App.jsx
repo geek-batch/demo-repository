@@ -1,12 +1,17 @@
 import './App.css'
+import Random from './components/Random'
 import { Ilkhom } from './components/Ilkhom'
 
 function App() {
 
   return (
-    <div>
+
+    <>
+      <Random/>
       <Ilkhom />
-    </div>
+    </>
+
+
   )
 }
 
