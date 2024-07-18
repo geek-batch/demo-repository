@@ -19,13 +19,13 @@ export const Ilkhom = () => {
         if (parseInt(userInput) === randomNumber) {
             setResult('It is a match')
         } else {
-            setResult('It is not a math')
+            setResult('It is not a match')
         }
     }
 
   return (
-    <div className="container">
-      <div className="input-group mb-3">
+    <div className="container d-flex flex-column align-items-center">
+      <div className="input-group mb-3 w-75">
         <input
           type="number"
           min="1"
@@ -49,7 +49,11 @@ export const Ilkhom = () => {
         </button>
       </div>
 
-      <div className="card">
+      <div className="card text-center w-50 mb-3">
+        <div className="card-body">{randomNumber}</div>
+      </div>
+
+      <div className="card text-center w-50">
         <div className="card-body">{result}</div>
       </div>
     </div>
