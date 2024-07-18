@@ -29,6 +29,9 @@ function App() {
         <button onClick={() => setCount((count) => count - 1)}>
           Substract
         </button>
+        <button onClick={() => setCount((count) => count = 0)}>
+          count is {count}
+        </button>
         <p>
           count is {count}
         </p>
