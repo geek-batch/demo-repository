@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-const Random = () => {
+const Dan = () => {
     const [randomNumber, setRandomNumber] = useState(generateRandomNumber());
     const [userInput, setUserInput] = useState('');
     const [message, setMessage] = useState('');
@@ -52,4 +52,4 @@ const Random = () => {
     );
 }
 
-export default Random
+export default Dan

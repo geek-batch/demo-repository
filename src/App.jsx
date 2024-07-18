@@ -1,14 +1,22 @@
 import './App.css'
-import Random from './components/Random'
+
+
+import Dan from './components/Dan'
+
 import { Ilkhom } from './components/Ilkhom'
+
 
 function App() {
 
   return (
 
     <>
-      <Random/>
+
+<Dan/>
+
+
       <Ilkhom />
+
     </>
 
 
