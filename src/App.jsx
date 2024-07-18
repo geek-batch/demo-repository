@@ -25,6 +25,14 @@ function App() {
           Edit <code>src/App.jsx</code> and save to test HMR
         </p>
       </div>
+      <div className="card">
+        <button onClick={() => setCount((count) => count - 1)}>
+          Substract
+        </button>
+        <p>
+          count is {count}
+        </p>
+      </div>
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
       </p>
