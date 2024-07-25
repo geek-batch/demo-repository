@@ -1,18 +1,7 @@
-import "./App.css";
-
-
-import { Ilkhom } from "./components/Ilkhom";
-import Dan from "./dan/Dan";
-import Karine from "./Karine";
+import './App.css'
 
 function App() {
-  return (
-    <>
-<Dan/>
-      <Karine />
-      <Ilkhom />
-    </>
-  );
+  return <></>
 }
 
-export default App;
+export default App
