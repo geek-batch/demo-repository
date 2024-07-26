@@ -1,17 +1,14 @@
 import './App.css'
-import Random from './components/Random'
-import { Ilkhom } from './components/Ilkhom'
+
+import Dan from './dan/Dan'
+import Ilkhom from './ilkhom/ilkhom'
 
 function App() {
-
   return (
-
     <>
-      <Random/>
+      {/* <Dan /> */}
       <Ilkhom />
     </>
-
-
   )
 }
 
