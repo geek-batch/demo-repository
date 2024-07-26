@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:wght@300;400;500;600&display=swap');
+
+body {
+  color: #2958e5;
+}
+
+h1 {
+  font-size: 4em;
+  font-weight: bold;
+}
+
+p {
+  font-size: 1.4em;
+  font-weight: bold;
+}
+
+img {
+  width: 272px;
+  height: 185px;
+}
