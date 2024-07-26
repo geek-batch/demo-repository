@@ -11,7 +11,7 @@ import other from './images/other.jpeg'
 const Ilkhom = () => {
   return (
     <div className="container-fluid p-5 m-0">
-      <div className="row border p-5">
+      <div className="row p-5">
         <div className="col-6 ps-5">
           <div className="row-md-6" style={{ width: '479px' }}>
             <div>
