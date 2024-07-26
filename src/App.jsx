@@ -1,13 +1,13 @@
 import './App.css'
 
-import Dan from './dan/Dan'
+import CompanyDetailsPage from './dan/CompanyDetailsPage'
 
 function App() {
   return (
     <>
-      <Dan />
+      <CompanyDetailsPage />
     </>
-  );
+  )
 }
 
-export default App;
+export default App
