@@ -11,7 +11,7 @@ const Links = () => {
   return (
     <div className="col-6 pe-5 ps-5">
       <div className="row text-center">
-        <div class="col-6 ps-5">
+        <div className="col-6 ps-5">
           <div>
             <img src={companies} alt="" />
           </div>
@@ -19,7 +19,7 @@ const Links = () => {
             <Link>Companies</Link>
           </div>
         </div>
-        <div class="col-6 pe-5">
+        <div className="col-6 pe-5">
           <div>
             <img src={jobs} alt="" />
           </div>
@@ -30,7 +30,7 @@ const Links = () => {
       </div>
 
       <div className="row text-center mt-3">
-        <div class="col-6 ps-5">
+        <div className="col-6 ps-5">
           <div>
             <img src={trucks} alt="" />
           </div>
@@ -38,7 +38,7 @@ const Links = () => {
             <Link>Trucks</Link>
           </div>
         </div>
-        <div class="col-6 pe-5">
+        <div className="col-6 pe-5">
           <div>
             <img src={mechanics} alt="" />
           </div>
@@ -49,7 +49,7 @@ const Links = () => {
       </div>
 
       <div className="row text-center mt-3">
-        <div class="col-6 ps-5">
+        <div className="col-6 ps-5">
           <div>
             <img src={trafficLawyers} alt="" />
           </div>
@@ -57,7 +57,7 @@ const Links = () => {
             <Link>Traffic Lawyers</Link>
           </div>
         </div>
-        <div class="col-6 pe-5">
+        <div className="col-6 pe-5">
           <div>
             <img src={other} alt="" />
           </div>
