@@ -35,7 +35,7 @@ const Links = () => {
             <img src={trucks} alt="" />
           </div>
           <div className="mt-3">
-            <link>Trucks</link>
+            <Link>Trucks</Link>
           </div>
         </div>
         <div class="col-6 pe-5">

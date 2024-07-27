@@ -6,10 +6,9 @@ import LandingPage from './LandingPage/LandingPage'
 function App() {
   return (
     <>
-      <CompanyDetailsPage />
+      {/* <CompanyDetailsPage /> */}
       <LandingPage />
     </>
-  )
   )
 }
 
