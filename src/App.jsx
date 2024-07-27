@@ -1,13 +1,13 @@
 import './App.css'
 
 import Dan from './dan/Dan'
-import Ilkhom from './ilkhom/ilkhom'
+import LandingPage from './LandingPage/LandingPage'
 
 function App() {
   return (
     <>
       {/* <Dan /> */}
-      <Ilkhom />
+      <LandingPage />
     </>
   )
 }
