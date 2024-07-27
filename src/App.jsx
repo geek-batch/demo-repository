@@ -1,14 +1,15 @@
 import './App.css'
 
-import Dan from './dan/Dan'
+import CompanyDetailsPage from './dan/CompanyDetailsPage'
 import LandingPage from './LandingPage/LandingPage'
 
 function App() {
   return (
     <>
-      {/* <Dan /> */}
+      <CompanyDetailsPage />
       <LandingPage />
     </>
+  )
   )
 }
 
