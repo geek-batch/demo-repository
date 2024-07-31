@@ -1,8 +1,10 @@
 import React from 'react'
-import './NavbarLandingPage.css'
+import { Link } from 'react-router-dom'
+import '../NavbarLandingPage.css'
+import logo from '../images/logo.jpeg'
 
 const NavbarLandingPage = () => {
-  const logoSrc = 'logo.png'
+ const logoSrc = {logo}
   const title = (
     <span className="title">
       <span className="title-bold">Truckers</span>
@@ -41,22 +43,22 @@ const NavbarLandingPage = () => {
   return (
     <nav className="navbar">
       <div className="navbar-left">
-        <img src={logoSrc} alt="Logo" className="logo" />
+        {/* <img src={logoSrc} alt="Logo" className="logo" /> */}
         <span className="title">{title}</span>
       </div>
       <div className="navbar-center">
         {links.map((link, index) => (
-          <a href={link.href} className="nav-link" key={index}>
+          <Link to={link.href} className="nav-link" key={index}>
             {link.text}
             {index < links.length - 1 && <span className="divider">/</span>}
-          </a>
+          </Link>
         ))}
       </div>
       <div className="navbar-right">
         {buttons.map((btn, index) => (
-          <a href={btn.href} className={btn.className} key={index}>
+          <Link to={btn.href} className={btn.className} key={index}>
             {btn.text}
-          </a>
+          </Link>
         ))}
       </div>
     </nav>
