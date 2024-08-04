@@ -1,5 +1,6 @@
-import PropTypes from 'prop-types'
-import './CompanyDetailsPage.css'
+/* eslint-disable react/prop-types */
+
+import './CompanyPage.css'
 import Image from '../assets/e948592c6c5a1022f18fe18d527af199.png'
 
 const contactDetailsInfo = {
@@ -67,32 +68,32 @@ const ratesInfo = [
   { type: 'FlatBed', price: '$0.70 / mile' },
 ]
 
-const CompanyDetailsPage = (props) => {
-  const {
-    imageSrc = Image,
+const CompanyDetailsPage = (  {
+  imageSrc = Image,
 
-    headerText = 'Header image',
+  headerText = 'Header image',
 
-    companyName = 'ITF Logistics',
+  companyName = 'ITF Logistics',
 
-    website = 'www.itflogistics.com',
+  website = 'www.itflogistics.com',
 
-    description = 'Reefer, DryVan or Stepdeck we got you covered. Being a truck driver for 5 years himself the founder of Kavkaz Express, LLC knows the business from inside out. With dedication, hard work and compassion he managed to build a strong and trustworthy name.',
+  description = 'Reefer, DryVan or Stepdeck we got you covered. Being a truck driver for 5 years himself the founder of Kavkaz Express, LLC knows the business from inside out. With dedication, hard work and compassion he managed to build a strong and trustworthy name.',
 
-    contactDetails = contactDetailsInfo,
+  contactDetails = contactDetailsInfo,
 
-    socialLinks = socialLinksInfo,
+  socialLinks = socialLinksInfo,
 
-    managers = managersInfo,
+  managers = managersInfo,
 
-    rates = ratesInfo,
-  } = props
+  rates = ratesInfo,
+} ) => {
+
 
   return (
     <div className="main-content">
       <div className="header-image">
         <div>
-          <img src={imageSrc} alt="logo" width={'250px'} />
+          <img src={imageSrc} alt="logo" className='logo'/>
         </div>
         <div className="text-headerImg">
           <p className="headerText">{headerText}</p>
@@ -208,42 +209,6 @@ const CompanyDetailsPage = (props) => {
   )
 }
 
-// Here is the PropTypes for the component:
 
-CompanyDetailsPage.propTypes = {
-  imageSrc: PropTypes.string,
-  headerText: PropTypes.string,
-  companyName: PropTypes.string,
-  website: PropTypes.string,
-  description: PropTypes.string,
-  contactDetails: PropTypes.shape({
-    phone: PropTypes.string,
-    addPhone: PropTypes.string,
-    fax: PropTypes.string,
-    email: PropTypes.string,
-    address: PropTypes.string,
-  }),
-  socialLinks: PropTypes.arrayOf(
-    PropTypes.shape({
-      platform: PropTypes.string,
-      url: PropTypes.string,
-      iconClass: PropTypes.string,
-    })
-  ),
-  managers: PropTypes.arrayOf(
-    PropTypes.shape({
-      role: PropTypes.string,
-      name: PropTypes.string,
-      phone: PropTypes.string,
-      email: PropTypes.string,
-    })
-  ),
-  rates: PropTypes.arrayOf(
-    PropTypes.shape({
-      type: PropTypes.string,
-      price: PropTypes.string,
-    })
-  ),
-}
 
 export default CompanyDetailsPage
