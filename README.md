@@ -13,7 +13,7 @@ The repo includes an `index.html` file (so it can render a web page), two GitHub
 - karine b.
 - aizat a.
 - madina k.
-- bayel
+- bayel k.
 - gulmira
 - dan
 - azamat
