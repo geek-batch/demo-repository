@@ -1,18 +1,15 @@
-import "./App.css";
+import './App.css'
 
 
-import { Ilkhom } from "./components/Ilkhom";
-import Dan from "./dan/Dan";
-import Karine from "./Karine";
+import LandingPage from './LandingPage/LandingPage'
 
 function App() {
   return (
     <>
-<Dan/>
-      <Karine />
-      <Ilkhom />
+   
+      <LandingPage />
     </>
-  );
+  )
 }
 
-export default App;
+export default App

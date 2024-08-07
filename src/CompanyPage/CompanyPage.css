@@ -1,0 +1,138 @@
+/* index.css */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:wght@300;400;500;600&display=swap');
+
+.main-content{
+  background-color: rgba(231, 235, 249, 1);
+  color: rgba(10, 57, 197, 1);
+  font-family: Montserrat, sans-serif;
+  margin: 0 auto;
+  width:57.31rem;
+}
+.logo{
+  width:15.6875rem;
+  height: 100%;
+}
+.header-image{
+  display: flex;
+  height: 15.6875rem;
+}
+.text-headerImg {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+h1{
+  font-weight: 600;
+  font-size: 1.88rem;
+  line-height: 1.25rem;
+}
+.headerText {
+  font-size: 1.38rem;
+  font-weight: 600;
+  line-height: 1.25rem;
+  margin: 0;
+}
+.content-box{
+  padding: 2.5rem;
+  width: 57.31rem;
+  height: 48.63rem;
+}
+p{
+  font-weight: 400;
+  font-size: 1rem;
+  line-height:1.25rem;
+}
+.description{
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.3rem;
+    text-align: left;
+    padding-top: 1.25rem;
+    width: 49.31rem;
+    height: 4.19rem;
+}
+.contact-container {
+  display: flex;
+  padding-top: 2.5rem;
+}
+strong, .bold{
+  font-weight: 600;
+  font-size:0.88rem;
+  line-height:1.25rem;
+}
+.contactUs{
+  width: 23.88rem;
+  height: 7.5rem;
+  font-size: 0.88rem;
+  line-height: 1.25rem;
+}
+.managers {
+  display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 3.44rem;
+    grid-row-gap: 0.3125rem;
+    margin-left: 3.125rem;
+    font-size: 0.88rem;
+    line-height: 1.12rem;
+}
+
+.manager {
+  margin-bottom: 1.25rem;
+}
+table{
+  width:22.38rem;
+  height:7.5rem;
+}
+tr{
+  width: 22.38rem;
+  height: 1.88rem;
+}
+.first{
+  background-color: rgba(189, 206, 255, 1);
+}
+.second{
+  background-color: rgba(209, 219, 251, 1);
+}
+.bold{
+  padding-left:0.3125rem;
+}
+.slim{
+  font-size: 0.88rem;
+  line-height:1.12rem;
+  font-weight:400;
+}
+ul {
+  list-style-type:none;
+  margin-left: 0;
+  padding-left: 0;
+}
+li{
+  margin-top: 0.3125rem;
+}
+a{
+  text-decoration: none;
+  color:rgba(10, 57, 197, 1)
+}
+.fa-solid{
+margin-right:0.3125rem;
+}
+.alignIcons {
+  display: flex;
+  justify-content: space-between;}
+
+.social-icon{
+font-size: 1.69rem;
+margin-right: 1rem;
+}
+h2{
+  font-weight: 600;
+  font-size:1.25rem;
+}
+.space{
+  margin-left: 0.3125rem;
+}
+#moveWeb{
+  margin-bottom: 0.9375rem;
+}
